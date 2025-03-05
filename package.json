@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "typa": "module",
   "bugs": {
     "url": "https://github.com/arieldiaz765/azure-pass-app/issues"
   },
