@@ -34,7 +34,7 @@ router.post('/', async (req, res) => {
         const newStudent = await Student.create(req.body);
         res.status(201).json(newStudent);
     } catch (error) {
-        console.error({ error: 'Error al crear el estudiante', detail: error.original });
+        console.error({ error: 'Error al crear el estudiante', detail: error });
         res.status(500).json({ error: 'Error al crear el estudiante' });
     }
 });

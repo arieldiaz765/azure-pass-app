@@ -1,9 +1,11 @@
 {
   "name": "azure-pass-app",
   "version": "1.0.0",
+  "description": "Ejercicio de despliegue de aplicacion en azure",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node app.js"
   },
   "repository": {
     "type": "git",
@@ -12,12 +14,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "typa": "module",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/arieldiaz765/azure-pass-app/issues"
   },
   "homepage": "https://github.com/arieldiaz765/azure-pass-app#readme",
-  "description": "",
+
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
